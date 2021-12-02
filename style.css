@@ -1,0 +1,73 @@
+
+/* for demo purposes */
+body{
+  background-color: #C2B280;
+  font: Aborininal Serif;
+}
+.container{
+  background-color: #C2B280;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font: Aborininal Serif;
+}
+}
+.card {
+  margin: 10px 10px;
+  font: Aborininal Serif;
+}
+
+/* Flip Cards CSS */
+.card-container {
+  display: grid;
+  perspective: 700px;
+  background-color: #C2B280;
+  font: Aborininal Serif;
+}
+
+.card-flip {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas: "frontAndBack";
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+  background-color: #C2B280;
+  font: Aborininal Serif;
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  background-color: #C2B280;
+  font: Aborininal Serif;
+}
+
+.front {
+  grid-area: frontAndBack;
+  background-color: #C2B280;
+  font: Aborininal Serif;
+}
+
+.back {
+  grid-area: frontAndBack;
+  transform: rotateY(-180deg);
+  background-color: #C2B280;
+  font: Aborininal Serif;
+}
+
+.card-container:hover .card-flip {
+  transform: rotateY(180deg);
+  background-color: #C2B280;
+  font: Aborininal Serif;
+}
+#dune1984{ 
+  width: 100px;
+  font: Aborininal Serif;
+}
+#dune2021{ 
+  width: 100px;
+  font: Aborininal Serif;
+}
+

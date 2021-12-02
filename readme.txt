@@ -1,0 +1,1 @@
+for the ART page please refresh the page twice if you do not only 2 of the picture slides show up by refreshing it gets all 6 slides to show up in the animation
